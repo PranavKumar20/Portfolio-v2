@@ -15,7 +15,7 @@ const Projects = () => {
 
    return (
       <div
-         className={`w-screen md:w-96 absolute rounded-md flex flex-col hover:scale-[103%] hover:border-white bg-[#101010] transition-all duration-150 overflow-y-hidden max-h-[24rem] border-2 z-10 ${
+         className={`w-full md:w-96 md:absolute rounded-md flex flex-col hover:scale-[103%] hover:border-white bg-[#101010] transition-all duration-150 overflow-y-hidden max-h-[24rem] border-2 z-10 ${
             !expanded
                ? 'md:max-h-[11.5rem] 2xl:max-h-[13.5rem] md:border-2 md:border-transparent pb-2 '
                : ' md:max-h-[24rem] 2xl:max-h-[28rem] border-2'

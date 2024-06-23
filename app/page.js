@@ -18,14 +18,14 @@ export default function Home() {
           <Title title={'Home'} />
         </div>
         <div className="flex flex-col md:flex-row" >
-          <div className="w-screen md:w-1/2 pr-4 sm:pr-0 " >
+          <div className="w-full md:w-1/2 pr-4 sm:pr-0 " >
             <IntroComponent />
           </div>
           <div className="flex flex-col md:w-1/2 md:ml-4 mt-2 md:mt-0 " >
-            <div className="">
+            <div className="w-full">
               <Projects />
             </div>
-            <div className=" h-48 md:h-full mt-96 md:mt-48">
+            <div className=" h-48 md:h-full mt-2 md:mt-48">
               <LastStarredRepo />
             </div>
           </div>

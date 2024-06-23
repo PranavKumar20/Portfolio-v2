@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* .popIn {
+    opacity: 0;
+    animation-name: popInRow;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+ } */
+
+ @keyframes popIn {
+    0% {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .popIn {
+    opacity: 0; /* Ensure initial state is hidden */
+    animation: popIn 0.5s forwards;
+  }
+
+  .bg-blue-gradient {
+    background: linear-gradient(180deg, #101010 0%, #174875 97.4%);
+ }
+  
+  

@@ -10,7 +10,7 @@ import Sheen from '../typography/Sheen';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const Projects = () => {
+const WorkComponent = () => {
    const [expanded, setExpanded] = useState(false);
 
    return (
@@ -132,4 +132,4 @@ const Projects = () => {
    );
 };
 
-export default Projects;
+export default WorkComponent;

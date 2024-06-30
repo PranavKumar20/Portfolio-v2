@@ -1,0 +1,36 @@
+.gradientLink {
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    background: linear-gradient(65deg, rgba(255,255,255,1) 0%, rgba(70,229,230,1) 0%, rgba(255,147,225,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .gradientLink::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background: linear-gradient(65deg, rgba(255,255,255,1) 0%, rgba(70,229,230,1) 0%, rgba(255,147,225,1) 100%);
+    transition: width 0.3s;
+    width: 0;
+  }
+  
+  .gradientLink:hover::after {
+    width: 100%;
+  }
+  
+  .gradientText {
+    color: transparent;
+    background: linear-gradient(65deg, rgba(255,255,255,1) 0%, rgba(70,229,230,1) 0%, rgba(255,147,225,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    display: inline;
+  }
+  

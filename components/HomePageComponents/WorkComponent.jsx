@@ -23,14 +23,15 @@ const WorkComponent = () => {
       >
          <div className='w-full text-xl 2xl:text-2xl font-bold px-3 pt-3 flex justify-between items-center'>
             <h1>Where I&apos;ve Worked</h1>
-            <button onClick={() => setExpanded((state) => !state)}>
+            {/* will retievr this later */}
+            {/* <button onClick={() => setExpanded((state) => !state)}>
                <FontAwesomeIcon
                   className={`transition-all duration-150 text-xl 2xl:text-2xl md:flex hidden text-gray-500 ${
                      expanded ? 'rotate-180' : ''
                   }`}
                   icon={faAngleDoubleDown}
                />
-            </button>
+            </button> */}
          </div>
          <div className='w-full flex flex-col h-full justify-between'>
             <div className='flex flex-col w-full h-full gap-x-1 pt-1'>
@@ -69,7 +70,6 @@ const WorkComponent = () => {
                      </div>
                   </div>
                </div>
-
                <div
                   className={`w-full pt-3 flex gap-x-3 h-auto items-start duration-150 ${
                      expanded ? 'md:opacity-1' : 'md:opacity-0'

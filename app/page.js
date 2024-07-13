@@ -25,7 +25,8 @@ export default function Home() {
           </div>
           <div className="flex flex-col md:w-1/2 md:ml-4 mt-2 md:mt-0 " >
             <div className="w-full">
-              <WorkComponent />
+              {/* <WorkComponent /> */}
+              Work Component here
             </div>
             <div className=" h-48 md:h-full mt-2 md:mt-48">
               <LastStarredRepo />

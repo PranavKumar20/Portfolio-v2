@@ -1,6 +1,6 @@
 import Footer from "@/components/GeneralComponents/Footer";
 
-const { Navbar } = require("@/components/GeneralComponents/Navbar")
+import { Navbar } from "@/components/GeneralComponents/Navbar";
 
 const index = async ()=>{
     return (

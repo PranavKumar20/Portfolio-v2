@@ -8,7 +8,7 @@ import Title from "@/components/GeneralComponents/Title";
 
 const index = ({}) => {
   return (
-    < div className="bg-black">
+    < div className="bg-black text-white">
       <Head>
         <title>AngelFolio | About</title>
         <meta

@@ -33,8 +33,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="py-2 flex w-full" >
-          <div className="w-1/2 mr-2 " >
+        <div className="py-2 flex flex-col md:flex-row w-full" >
+          <div className="w-full md:w-1/2 mr-2 " >
             <div className="text-2xl font-semibold py-4" >Recent Projects</div>
             <div className=" w-full flex h-48 mb-2 bg-[#101010] rounded-md">
               <LatestProjectCard />
@@ -43,7 +43,7 @@ export default function Home() {
               <LatestProjectCard />
             </div>
           </div>
-          <div className="w-1/2 ml-2 " >
+          <div className="w-full sm:w-1/2 ml-2 " >
             <div className="text-2xl font-semibold py-4" >Most Recent Blog</div>
             <div className=" w-full flex h-48 bg-[#101010] rounded-md">
               <LatestBlogCard />

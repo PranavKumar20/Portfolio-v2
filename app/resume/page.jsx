@@ -8,7 +8,7 @@ import Title from "@/components/GeneralComponents/Title";
 
 const index = ({}) => {
   return (
-    <>
+    < div className="bg-black">
       <Head>
         <title>AngelFolio | About</title>
         <meta
@@ -192,7 +192,7 @@ const index = ({}) => {
         </div>
         <Footer />
       </main>
-    </>
+    </div>
   );
 };
 

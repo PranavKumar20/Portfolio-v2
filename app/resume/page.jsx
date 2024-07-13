@@ -151,7 +151,7 @@ const index = ({}) => {
               </div>
             </div>
           </section>
-          <section
+          {/* <section
             id="leadership_roles"
             className="w-full text-start flex flex-col gap-x-1"
           >
@@ -188,7 +188,7 @@ const index = ({}) => {
                 </div>
               </div>
             </div>
-          </section>
+          </section> */}
         </div>
         <Footer />
       </main>

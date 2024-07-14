@@ -6,6 +6,9 @@ const index = ()=>{
     return (
         <div className="bg-black text-white" >
             <Navbar />
+            <div>
+                <Title title={"My Projects"} />
+            </div>
             <div>hii from  project page</div>
             <Footer />
         </div>

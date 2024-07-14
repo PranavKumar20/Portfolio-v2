@@ -4,7 +4,7 @@ import Footer from "@/components/GeneralComponents/Footer";
 
 const index = ()=>{
     return (
-        <div className="bg-black text-white" >
+        <div className="bg-black text-white h-screen" >
             <Navbar />
             <div>
                 <Title title={"My Projects"} />

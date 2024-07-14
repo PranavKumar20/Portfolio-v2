@@ -5,7 +5,7 @@ import Title from "@/components/GeneralComponents/Title";
 
 const index = async ()=>{
     return (
-        <div className="bg-black text-white">
+        <div className="bg-black text-white h-screen">
             <Navbar />
             <Title title={"My Blogs"} />
             <div>Hii from blogs page</div>

@@ -4,8 +4,10 @@ import Footer from "@/components/GeneralComponents/Footer";
 
 const index = ()=>{
     return (
-        <div>
-            hiii from projects page
+        <div className="bg-black text-white" >
+            <Navbar />
+            <div>hii from  project page</div>
+            <Footer />
         </div>
     )
 }

@@ -13,7 +13,7 @@ const index = ({}) => {
         <title>AngelFolio | About</title>
         <meta
           name="description"
-          content="Angel's Portfolio and Blog about tech, development, and more!"
+          content="Pranav's Portfolio and Blog about tech, development, and more!"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="image" content="https://www.angel1254.com/link-image.png" />

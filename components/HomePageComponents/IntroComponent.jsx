@@ -108,7 +108,7 @@ export const IntroComponent = () => {
                     <a
                         target='_blank'
                         rel='noreferrer'
-                        href='https://www.linkedin.com/in/angel1254/'
+                        href='https://www.linkedin.com/in/pranav-kumar-54906b257'
                         className='w-7 h-7 2xl:text-3xl hover:text-blue-300 text-2xl flex justify-center transition-all duration-100 cursor-pointer hover:text-3xl'
                     >
                         <FontAwesomeIcon
@@ -122,7 +122,7 @@ export const IntroComponent = () => {
                     <a
                         target='_blank'
                         rel='noreferrer'
-                        href='https://www.instagram.com/angel1254/'
+                        href='https://www.instagram.com/'
                         className='w-7 h-7 2xl:text-3xl hover:text-blue-300 text-2xl flex justify-center transition-all duration-100 cursor-pointer hover:text-3xl'
                     >
                         <FontAwesomeIcon
@@ -136,7 +136,7 @@ export const IntroComponent = () => {
                     <a
                         target='_blank'
                         rel='noreferrer'
-                        href='https://www.youtube.com/channel/UC-kEszCPZTbWdRjt9RhVsYA'
+                        href='https://www.youtube.com/'
                         className='w-7 h-7 2xl:text-3xl hover:text-blue-300 text-2xl flex justify-center transition-all duration-100 cursor-pointer hover:text-3xl'
                     >
                         <FontAwesomeIcon
